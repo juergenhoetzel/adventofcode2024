@@ -1,0 +1,22 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "aoc"
+authors = [{name = "Jürgen Hötzel", email = "juergen@hoetzel.info"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version", "description"]
+
+[project.optional-dependencies]
+dev = [
+    "pyright",
+    "ruff",
+    "debugpy",
+    "pytest",
+]
+
+[project.urls]
+Home = "https://github.com/juergenhoetzel/adventofcode2024"
