@@ -1,7 +1,7 @@
 from pathlib import Path
 
 import pytest
-from aoc.day1 import day1
+from aoc.day1 import day1, day1_part2
 
 TESTDATA = """
 3   4
@@ -22,3 +22,7 @@ def input_path(tmpdir_factory):
 
 def test_day1(input_path):
     assert day1(input_path) == 11
+
+
+def test_day1_part2(input_path):
+    assert day1_part2(input_path) == 31
