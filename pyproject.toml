@@ -20,3 +20,6 @@ dev = [
 
 [project.urls]
 Home = "https://github.com/juergenhoetzel/adventofcode2024"
+
+[tool.ruff]
+line-length = 120
