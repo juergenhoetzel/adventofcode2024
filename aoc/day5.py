@@ -27,9 +27,26 @@ def parse_input(path: Path):
         return order_map, [[int(m) for m in line.strip().split(",")] for line in r]
 
 
+def sort_updates(order_map, updates):
+    result = []
+    for x in updates:
+        insert_positions = [result.index(y) for y in order_map.get(x, {}) if y in result]
+        if insert_positions:
+            result.insert(min(insert_positions), x)
+        else:
+            result.append(x)
+    return result
+
+
+def part2(order_map, xs):
+    sorted_updates = [sort_updates(order_map, updates) for updates in xs if not is_valid_order(order_map, updates)]
+    return sum((updates[len(updates) // 2] for updates in sorted_updates))
+
+
 def main():
-    part1_count = part1(*parse_input(Path(sys.argv[1])))
-    print(f"Part 1: {part1_count}\n")
+    order, updates = parse_input(Path(sys.argv[1]))
+    print(f"Part 1: {part1(order, updates)}")
+    print(f"Part 2: {part2(order, updates)}")
 
 
 if __name__ == "__main__":
