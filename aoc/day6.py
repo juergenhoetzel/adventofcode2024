@@ -1,5 +1,4 @@
 import sys
-from copy import deepcopy
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -21,7 +20,7 @@ class PlayerMap:
                 return (0, -1)
             case (0, -1):
                 return (-1, 0)
-        raise ValueError(f"Invalid direction: {player-dir}")
+        raise ValueError(f"Invalid direction: {player_dir}")
 
     def is_in_field(self, pos: tuple[int, int]) -> bool:
         y, x = pos
@@ -47,7 +46,6 @@ class PlayerMap:
 def parse_input(lines: list[str]):
     locations = set()
     start_pos = (0, 0)
-    player_dir = (-1, 0)  # default: ^ ?
     for j, line in enumerate(lines):
         for i, x in enumerate(line.strip()):
             if x == "#":
