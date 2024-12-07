@@ -1,4 +1,4 @@
-from aoc.day7 import Equation, part1
+from aoc.day7 import Equation, part1, part2
 
 test_input = [
     Equation(expected=190, xs=[10, 19]),
@@ -15,3 +15,7 @@ test_input = [
 
 def test_part1():
     assert part1(test_input) == 3749
+
+
+def test_part2():
+    assert part2(test_input) == 11387
