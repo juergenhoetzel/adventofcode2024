@@ -12,3 +12,4 @@
 | [Day 6: Guard Gallivant](https://adventofcode.com/2024/day/6)       | ✅     | ✅     | [day6.py](aoc/day6.py) |
 | [Day 7: Bridge Repair](https://adventofcode.com/2024/day/7)         | ✅     | ✅     | [day7.py](aoc/day7.py) |
 | [Day 8: Resonant Collinearity](https://adventofcode.com/2024/day/8) | ✅     | ✅     | [day8.py](aoc/day8.py) |
+| [Day 9: Disk Fragmenter](https://adventofcode.com/2024/day/9)       | ✅     | ❌     | [day9.py](aoc/day9.py) |
