@@ -14,4 +14,5 @@
 | [Day 8: Resonant Collinearity](https://adventofcode.com/2024/day/8) | ✅     | ✅     | [day8.py](aoc/day8.py)   |
 | [Day 9: Disk Fragmenter](https://adventofcode.com/2024/day/9)       | ✅     | ❌     | [day9.py](aoc/day9.py)   |
 | [Day 10: Hoof It](https://adventofcode.com/2024/day/10)             | ✅     | ✅     | [day10.py](aoc/day10.py) |
-| [Day 11: Plutonian Pebbles](https://adventofcode.com/2024/day/11)             | ✅     | ✅     | [day11.py](aoc/day11.py) |
+| [Day 11: Plutonian Pebbles](https://adventofcode.com/2024/day/11)   | ✅     | ✅     | [day11.py](aoc/day11.py) |
+| [Day 12: Garden Groups](https://adventofcode.com/2024/day/12)       | ✅     | ❌     | [day12.py](aoc/day12.py) |
