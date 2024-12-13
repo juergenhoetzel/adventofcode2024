@@ -16,4 +16,4 @@
 | [Day 10: Hoof It](https://adventofcode.com/2024/day/10)             | ✅     | ✅     | [day10.py](aoc/day10.py) |
 | [Day 11: Plutonian Pebbles](https://adventofcode.com/2024/day/11)   | ✅     | ✅     | [day11.py](aoc/day11.py) |
 | [Day 12: Garden Groups](https://adventofcode.com/2024/day/12)       | ✅     | ✅     | [day12.py](aoc/day12.py) |
-| [Day 13: Garden Groups](https://adventofcode.com/2024/day/13)       | ✅     | ✅     | [day13.py](aoc/day13.py) |
+| [Day 13: Claw Contraption](https://adventofcode.com/2024/day/13)       | ✅     | ✅     | [day13.py](aoc/day13.py) |
