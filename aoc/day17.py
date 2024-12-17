@@ -64,9 +64,28 @@ def part1(c: Computer) -> str:
     return ",".join((str(i) for i in c.output))
 
 
+def search_regs(comp: Computer, a=0, prg_pos=-1):
+    if abs(prg_pos) > len(comp.program):
+        return a
+    for i in range(8):
+        comp.ip = 0
+        comp.output = []
+        comp.a = a * 8 + i
+        while comp.step():
+            ...
+        if comp.output[0] == comp.program[prg_pos]:
+            if ar := search_regs(comp, a * 8 + i, prg_pos - 1):
+                return ar
+
+
+def part2(comp: Computer):
+    return search_regs(comp)
+
+
 def main():
-    s = parse_input(Path(sys.argv[1]).read_text())
-    print(f"Part1: {part1(s)}")
+    c = parse_input(Path(sys.argv[1]).read_text())
+    print(f"Part1: {part1(c)}")
+    print(f"Part1: {part2(c)}")
 
 
 if __name__ == "__main__":
