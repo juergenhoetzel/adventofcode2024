@@ -18,5 +18,5 @@
 | [Day 12: Garden Groups](https://adventofcode.com/2024/day/12)       | ✅     | ✅     | [day12.py](aoc/day12.py) |
 | [Day 13: Claw Contraption](https://adventofcode.com/2024/day/13)    | ✅     | ✅     | [day13.py](aoc/day13.py) |
 | [Day 14: Restroom Redoubt](https://adventofcode.com/2024/day/14)    | ✅     | ✅     | [day14.py](aoc/day14.py) |
-| [Day 15: Warehouse Woes](https://adventofcode.com/2024/day/15)    | ✅     | ❌     | [day15.py](aoc/day15.py) |
-
+| [Day 15: Warehouse Woes](https://adventofcode.com/2024/day/15)      | ✅     | ❌     | [day15.py](aoc/day15.py) |
+| [Day 16: Reindeer Maze](https://adventofcode.com/2024/day/16)       | ✅     | ❌     | [day16.py](aoc/day16.py) |
