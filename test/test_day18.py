@@ -1,4 +1,4 @@
-from aoc.day18 import parse_input, part1
+from aoc.day18 import parse_input, part1, part2
 
 TEST_INPUT = """5,4
 4,2
@@ -25,8 +25,12 @@ TEST_INPUT = """5,4
 0,5
 1,6
 2,0
-""".splitlines()[:12]
+""".splitlines()
 
 
 def test_part_1():
-    assert part1(parse_input(TEST_INPUT), 7, 7) == 22
+    assert part1(parse_input(TEST_INPUT[:12]), 7, 7) == 22
+
+
+def test_part_2():
+    assert part2(TEST_INPUT, 7, 7) == "6,1"

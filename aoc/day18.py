@@ -34,9 +34,23 @@ def part1(a, x_size, y_size):
     return c
 
 
+def part2(lines: list[str], x_size, y_size):
+    good_pos = 0
+    bad_pos = len(lines) - 1
+    while bad_pos > good_pos + 1:
+        middle = (bad_pos + good_pos) // 2
+        if part1(parse_input(lines[:middle]), x_size, y_size):
+            good_pos = middle
+        else:
+            bad_pos = middle
+
+    return lines[good_pos]
+
+
 def main():
-    a = parse_input(Path(sys.argv[1]).read_text().splitlines()[:1024])
-    print(f"Part 1: {part1(a, 71, 71)}")
+    lines = Path(sys.argv[1]).read_text().splitlines()
+    print(f"Part 1: {part1(parse_input(lines[:1024]), 71, 71)}")
+    print(f"Part 2: {part2(lines, 71, 71)}")
 
 
 if __name__ == "__main__":

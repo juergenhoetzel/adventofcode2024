@@ -21,4 +21,4 @@
 | [Day 15: Warehouse Woes](https://adventofcode.com/2024/day/15)         | ✅     | ❌     | [day15.py](aoc/day15.py) |
 | [Day 16: Reindeer Maze](https://adventofcode.com/2024/day/16)          | ✅     | ❌     | [day16.py](aoc/day16.py) |
 | [Day 17: Chronospatial Computer](https://adventofcode.com/2024/day/17) | ✅     | ✅     | [day17.py](aoc/day17.py) |
-| [Day 18: RAM Run](https://adventofcode.com/2024/day/18)                | ✅     | ❌     | [day18.py](aoc/day18.py) |
+| [Day 18: RAM Run](https://adventofcode.com/2024/day/18)                | ✅     | ✅     | [day18.py](aoc/day18.py) |
