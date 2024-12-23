@@ -25,4 +25,4 @@
 | [Day 19: Linen Layout](https://adventofcode.com/2024/day/19)           | ✅     | ✅     | [day19.py](aoc/day19.py) |
 | [Day 20: Race Condition](https://adventofcode.com/2024/day/20)         | ✅     | ✅     | [day20.py](aoc/day20.py) |
 | [Day 21: Keypad Conundrum](https://adventofcode.com/2024/day/21)       | ❌     | ❌     | [day21.py](aoc/day21.py) |
-| [Day 22: Monkey Market](https://adventofcode.com/2024/day/22)          | ✅     | ❌     | [day22.py](aoc/day22.py) |
+| [Day 22: Monkey Market](https://adventofcode.com/2024/day/22)          | ✅     | ✅     | [day22.py](aoc/day22.py) |
