@@ -28,3 +28,4 @@
 | [Day 22: Monkey Market](https://adventofcode.com/2024/day/22)          | ✅     | ✅     | [day22.py](aoc/day22.py) |
 | [Day 23: LAN Party](https://adventofcode.com/2024/day/23)              | ✅     | ✅     | [day23.py](aoc/day23.py) |
 | [Day 24: Crossed Wires](https://adventofcode.com/2024/day/24)          | ✅     | ✅     | [day24.py](aoc/day24.py) |
+| [Day 25: Code Chronicle](https://adventofcode.com/2024/day/25)         | ✅     | ❌     | [day25.py](aoc/day25.py) |
